@@ -22,7 +22,9 @@
 #     for x in range(height):
 #         print('#', end='')
 #     print(' ')
-dato =1
-for j in range(0,7,+1):
-        print('#'*j)
+
+h = int(input('Height: '))
+
+for j in range(h,0,-1):
+        print(f'{"V"*(j-1)}{"#"*(0, h(+1), +1)}')
 
