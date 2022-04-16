@@ -9,3 +9,5 @@ def main():
             print(f'{" "*(j-1)}{"#"*(h-j+1)}  {"#"*(h-j+1)}')
 
 main()
+
+# maybe use try and break
